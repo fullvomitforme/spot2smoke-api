@@ -1,12 +1,13 @@
 {
   "name": "spot2smoke-api",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "start": "vercel dev",
+    "deploy": "vercel"
   },
   "dependencies": {
     "hono": "^4.6.14"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "vercel": "^32.4.1"
   }
 }
